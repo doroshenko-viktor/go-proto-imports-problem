@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package company;
+
+option go_package = "company";
+
+enum CompanyEnum {
+    VAR1 = 0;
+    VAR2 = 1;
+}

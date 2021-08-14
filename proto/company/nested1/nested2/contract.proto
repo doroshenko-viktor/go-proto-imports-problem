@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package company.nested1.nested2;
+
+import "company/common.proto";
+
+option go_package = "nested2";
+
+message CompanyMessage {
+    CompanyEnum compEnum = 1;
+}
